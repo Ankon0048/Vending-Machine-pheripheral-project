@@ -10,6 +10,17 @@ The main feature of this project is the acceptance of money through an online pa
 - install the necessary libraries and dependencies.
 - Connect the GSM900A SIM module to the Arduino board.
 - Connect the stepper motor, LCD display, and any other required devices to the Arduino board.
+## Initial Design
+![vending_machine](https://github.com/Ankon0048/Vending-Machine-pheripheral-project/blob/main/vending_machine.jpg)
+## some pin markdowns
+- gsm red connected to aruidno 10
+- gsm brown connected to arduino 9
+- gsm black connected to arduino gnd
+- arduino 5v connected to breadboard
+- i2c adapter vcc and gnd are connected to breadboard and arduino
+- i2c SDA connected to arduino a4
+- i2c SCL connected to arduino a5
+- servo motor set to arduino 3
 ## Usage
 - Upload the code to the Arduino board.
 - Power on the system.
